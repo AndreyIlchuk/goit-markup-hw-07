@@ -1,0 +1,45 @@
+.what-are-we-doing-img {
+  display: flex;
+}
+.title-what-are-we-doing {
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.img1 {
+  margin-right: 30px;
+  position: relative;
+}
+.img2 {
+  margin-right: 30px;
+}
+.img3 {
+  margin-right: 30px;
+}
+.descript {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  top: 1435px;
+  background: rgba(47, 48, 58, 0.8);
+}
+.descript-title {
+  margin: 27px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

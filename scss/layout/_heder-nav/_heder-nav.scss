@@ -1,0 +1,129 @@
+.nav-container {
+  align-items: center;
+  display: flex;
+}
+.top-line-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000;
+  text-decoration: none;
+  transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.top-line-link:hover,
+.top-line-link:focus {
+  color: #2196f3;
+}
+
+.top-link {
+  display: flex;
+}
+.link1:hover,
+.link1:focus {
+  color: #2196f3;
+}
+.item:nth-child(1) {
+  margin: 0 50px 0 93px;
+}
+.item:nth-child(2) {
+  margin-right: 50px;
+}
+.adress-item:nth-child(1) {
+  margin: 0 30px 0 305px;
+}
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+  transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+.activ::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 30px;
+  bottom: auto;
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+}
+
+.adress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+  transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-link {
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mail-link:hover .mail-icon,
+.mail-link:focus .mail-icon {
+  fill: #2196f3;
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: #2196f3;
+}
+.tel-icon {
+  width: 16px;
+  height: 12px;
+  fill: var(--primary-text-color);
+}
+.tel-link:hover .tel-icon,
+.tel-link:focus .tel-icon {
+  fill: #2196f3;
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: #2196f3;
+}
+.tel-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+  transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.span {
+  color: #2196f3;
+}
