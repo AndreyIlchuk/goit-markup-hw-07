@@ -62,7 +62,7 @@
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
   position: absolute;
-  top: 0;
+  top: 1px;
   left: 0;
   padding: 63px 24px;
   font-family: Roboto;
@@ -218,7 +218,7 @@
 .portfolio-title {
   padding: 20px 24px;
 }
-.title-container {
+.portfolio-title-container {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -227,7 +227,7 @@
   letter-spacing: 0.06em;
   color: #212121;
 }
-.name {
+.porfolio-name {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

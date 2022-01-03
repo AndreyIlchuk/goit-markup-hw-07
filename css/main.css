@@ -1208,7 +1208,7 @@ a {
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
   position: absolute;
-  top: 0;
+  top: 1px;
   left: 0;
   padding: 63px 24px;
   font-family: Roboto;
@@ -1425,7 +1425,7 @@ a {
   padding: 20px 24px;
 }
 
-.title-container {
+.portfolio-title-container {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -1435,7 +1435,7 @@ a {
   color: #212121;
 }
 
-.name {
+.porfolio-name {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -1443,5 +1443,12 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.section-header {
+  width: 100%;
+  background: #ffffff;
+  padding: 25px 0;
+  border: 1px solid #ececec;
 }
 /*# sourceMappingURL=main.css.map */
