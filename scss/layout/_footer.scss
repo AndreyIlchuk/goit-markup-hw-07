@@ -91,17 +91,17 @@
   margin-left: 12px;
   fill: var(--accent-color);
 }
-.footer-email-input {
+.footer-email {
   margin-left: 93px;
 }
 .footer-form {
   display: flex;
   flex-direction: column;
 }
-.footer-label {
+.footer-form__label {
   display: flex;
 }
-.title-email-input {
+.footer-form__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
