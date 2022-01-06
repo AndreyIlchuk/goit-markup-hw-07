@@ -1,22 +1,22 @@
-.peculiarities-feature {
+.group-peculiarities {
   display: flex;
 }
 .feature:not(:last-child) {
   margin-right: 30px;
 }
-.antenna {
+.feature__antenna {
   margin-bottom: 30px;
 }
-.clock {
+.feature__clock {
   margin-bottom: 30px;
 }
-.diagram {
+.feature__diagram {
   margin-bottom: 30px;
 }
-.astronaut {
+.feature__astronaut {
   margin-bottom: 30px;
 }
-.title-peculiarities {
+.feature__title {
   padding-bottom: 10px;
   font-family: Roboto;
   font-style: normal;
@@ -28,37 +28,7 @@
   color: #212121;
 }
 
-.text-peculiarities-1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.text-peculiarities-2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.text-peculiarities-3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.text-peculiarities-4 {
+.feature__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
