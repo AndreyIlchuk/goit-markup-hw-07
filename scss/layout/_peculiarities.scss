@@ -1,14 +1,7 @@
-.container-peculiarities {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-sizing: border-box;
-}
-.section-peculiarities {
+.peculiarities-feature {
   display: flex;
 }
-.feature1 {
+.feature:not(:last-child) {
   margin-right: 30px;
 }
 .antenna {
@@ -33,13 +26,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-}
-.feature2 {
-  margin-right: 30px;
-}
-
-.feature3 {
-  margin-right: 30px;
 }
 
 .text-peculiarities-1 {
