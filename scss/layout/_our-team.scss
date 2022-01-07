@@ -77,15 +77,15 @@
   background-color: #2196f3;
 }
 
-.social-list__icon:focus .icon {
+.social-list__icon:focus .team-icon {
   fill: var(--accent-color);
 }
 
-.social-list:hover .icon {
+.social-list:hover .team-icon {
   fill: var(--accent-color);
 }
 
-.icon {
+.team-icon {
   margin-top: 12px;
   fill: #afb1b8;
 }
