@@ -165,19 +165,21 @@ a {
   transition: 250ms linear border;
 }
 
-.form-messeg {
-  resize: none;
-  height: 120px;
-  padding: 12px 16px;
-}
-
-.form-input:focus {
+.form-field input:focus,
+.form-messeg:focus {
   outline: none;
   border: 1px solid #2196f3;
 }
 
-.form-input:focus + svg {
+.form-field input:focus + svg,
+.form-messeg:focus + svg {
   fill: #2196f3;
+}
+
+.form-messeg {
+  resize: none;
+  height: 120px;
+  padding: 12px 16px;
 }
 
 .label-modal {
@@ -386,8 +388,7 @@ a {
   transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.top-line-link:hover,
-.top-line-link:focus {
+.top-line-link:hover, .top-line-link:focus {
   color: #2196f3;
 }
 
@@ -429,8 +430,7 @@ a {
   transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.top-link__nav:hover,
-.top-link__nav:focus {
+.top-link__nav:hover, .top-link__nav:focus {
   color: #2196f3;
 }
 
@@ -494,30 +494,19 @@ a {
   transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mail-link:hover, .mail-link:focus {
+  color: #2196f3;
+}
+
 .mail-link:hover .mail-icon,
 .mail-link:focus .mail-icon {
   fill: #2196f3;
-}
-
-.mail-link:hover,
-.mail-link:focus {
-  color: #2196f3;
 }
 
 .tel-icon {
   width: 16px;
   height: 12px;
   fill: var(--primary-text-color);
-}
-
-.tel-link:hover .tel-icon,
-.tel-link:focus .tel-icon {
-  fill: #2196f3;
-}
-
-.tel-link:hover,
-.tel-link:focus {
-  color: #2196f3;
 }
 
 .tel-link {
@@ -534,9 +523,14 @@ a {
   transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover,
-.link:focus {
+.tel-link:hover, .tel-link:focus {
   color: #2196f3;
+}
+
+.tel-link:hover:hover .tel-icon,
+.tel-link:hover:focus .tel-icon, .tel-link:focus:hover .tel-icon,
+.tel-link:focus:focus .tel-icon {
+  fill: #2196f3;
 }
 
 .span {
@@ -755,7 +749,7 @@ a {
   fill: var(--accent-color);
 }
 
-.social-list:hover .team-icon {
+.social-list__icon:hover .team-icon {
   fill: var(--accent-color);
 }
 
@@ -818,13 +812,17 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.customers__link:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
 .svg {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -o-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers__link:hover,
 .svg:hover {
   fill: #2196f3;
   border-color: #2196f3;
@@ -883,6 +881,10 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-link:hover, .footer-link:focus {
+  color: #2196f3;
+}
+
 .footer-mail-link {
   font-family: Roboto;
   font-style: normal;
@@ -894,6 +896,10 @@ a {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -o-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-mail-link:hover, .footer-mail-link:focus {
+  color: #2196f3;
 }
 
 .footer-tel-link {
@@ -911,18 +917,7 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-mail-link:hover,
-.footer-mail-link:focus {
-  color: #2196f3;
-}
-
-.footer-link:hover,
-.footer-link:focus {
-  color: #2196f3;
-}
-
-.footer-tel-link:hover,
-.footer-tel-link:focus {
+.footer-tel-link:hover, .footer-tel-link:focus {
   color: #2196f3;
 }
 

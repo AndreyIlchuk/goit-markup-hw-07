@@ -84,19 +84,20 @@
   margin-top: 15px;
   padding: 0 10px 0 40px;
   transition: 250ms linear border;
+  &:focus {
+    outline: none;
+    border: 1px solid #2196f3;
+  }
+  &:focus + svg {
+    fill: #2196f3;
+  }
 }
 .form-messeg {
   resize: none;
   height: 120px;
   padding: 12px 16px;
 }
-.form-input:focus {
-  outline: none;
-  border: 1px solid #2196f3;
-}
-.form-input:focus + svg {
-  fill: #2196f3;
-}
+
 .label-modal {
   display: block;
   position: absolute;

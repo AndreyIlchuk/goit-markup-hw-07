@@ -12,10 +12,10 @@
   color: #000;
   text-decoration: none;
   transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.top-line-link:hover,
-.top-line-link:focus {
-  color: #2196f3;
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
 
 .top-link {
@@ -44,11 +44,12 @@
   text-decoration: none;
   color: #212121;
   transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
-.top-link__nav:hover,
-.top-link__nav:focus {
-  color: #2196f3;
-}
+
 .activ::after {
   content: "";
   display: block;
@@ -86,28 +87,22 @@
   color: #757575;
   text-decoration: none;
   transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+  &:hover .mail-icon,
+  &:focus .mail-icon {
+    fill: #2196f3;
+  }
 }
-.mail-link:hover .mail-icon,
-.mail-link:focus .mail-icon {
-  fill: #2196f3;
-}
-.mail-link:hover,
-.mail-link:focus {
-  color: #2196f3;
-}
+
 .tel-icon {
   width: 16px;
   height: 12px;
   fill: var(--primary-text-color);
 }
-.tel-link:hover .tel-icon,
-.tel-link:focus .tel-icon {
-  fill: #2196f3;
-}
-.tel-link:hover,
-.tel-link:focus {
-  color: #2196f3;
-}
+
 .tel-link {
   font-family: Roboto;
   font-style: normal;
@@ -118,12 +113,16 @@
   text-decoration: none;
   color: #757575;
   transition: background-color, fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #2196f3;
+    &:hover .tel-icon,
+    &:focus .tel-icon {
+      fill: #2196f3;
+    }
+  }
 }
 
-.link:hover,
-.link:focus {
-  color: #2196f3;
-}
 .span {
   color: #2196f3;
 }
